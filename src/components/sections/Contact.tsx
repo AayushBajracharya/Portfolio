@@ -22,7 +22,7 @@ export default function Contact() {
 
             <a
               href="mailto:aayushbajracharya90@gmail.com"
-              className="text-gray-300 transition hover:text-white"
+              className="text-gray-300 transition hover:text-white justify-center flex flex-wrap"
             >
               aayushbajracharya90@gmail.com
             </a>
