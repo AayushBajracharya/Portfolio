@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import ScrollProgress from "./components/common/ScrollProgress";
 import AppRoutes from "./routes/AppRoutes";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <ScrollProgress />
       <AppRoutes />
+      <SpeedInsights />
     </>
   );
 }
