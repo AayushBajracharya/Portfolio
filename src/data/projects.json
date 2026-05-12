@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Library Management System",
+    "stack": [
+      "ASP.NET Core",
+      "React + TypeScript",
+      "CQRS",
+      "MediatR",
+      "Dapper",
+      "JWT"
+    ],
+    "description": "Designed and developed a full-stack library management system with separate ASP.NET Core backend API and React TypeScript frontend.",
+    "featured": true,
+    "gradient": "from-blue-500 to-cyan-400"
+  },
+  {
+    "id": 2,
+    "title": "RabbitMQ Order System",
+    "stack": ["ASP.NET Core", "RabbitMQ", "Docker", "Clean Architecture"],
+    "description": "Built a distributed order processing system using RabbitMQ for asynchronous event communication and Dockerized deployment.",
+    "featured": true,
+    "gradient": "from-violet-500 to-indigo-500"
+  },
+  {
+    "id": 3,
+    "title": "Single Sign-On (SSO) System",
+    "stack": ["ASP.NET Core", "JWT", "T-SQL", "TypeScript"],
+    "description": "Created centralized authentication architecture enabling multiple systems to share a unified login experience.",
+    "featured": true,
+    "gradient": "from-emerald-500 to-cyan-400"
+  }
+]

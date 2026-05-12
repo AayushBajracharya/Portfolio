@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "role": "Associate Software Developer",
+    "company": "CodeBee Nepal",
+    "period": "Aug 2025 - Present",
+    "description": "Building scalable ASP.NET APIs, migrating legacy systems to .NET 8, managing databases using EF Core and raw SQL, and building Razor Pages and .NET MAUI applications."
+  },
+  {
+    "id": 2,
+    "role": "Full Stack Engineer",
+    "company": "Avenir Tech",
+    "period": "May 2025 - Aug 2025",
+    "description": "Developed REST APIs with ASP.NET Core and FastAPI following Clean Architecture and worked on EF Core migrations and GitLab workflows."
+  },
+  {
+    "id": 3,
+    "role": "Full Stack Developer",
+    "company": "Kutumba Tech Pvt. Ltd.",
+    "period": "Sep 2024 - May 2025",
+    "description": "Built scalable APIs with .NET and Django, implemented SignalR real-time modules, and integrated Google Maps API."
+  }
+]
