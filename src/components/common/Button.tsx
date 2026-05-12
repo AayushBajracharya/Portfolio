@@ -13,7 +13,7 @@ export default function Button({
   };
 
   const commonClasses =
-    "inline-flex items-center justify-center rounded-2xl px-7 py-4 font-semibold transition duration-300";
+    "inline-flex items-center justify-center rounded-2xl px-7 py-4 font-semibold transition-all duration-300 hover:-translate-y-1 hover:shadow-xl";
 
   if (href) {
     return (

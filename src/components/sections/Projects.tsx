@@ -1,6 +1,8 @@
 import projects from "../../data/projects.json";
 import Container from "../Container";
 import SectionTitle from "../common/SectionTitle";
+import { motion } from "framer-motion";
+import { fadeInUp, staggerContainer } from "../../utils/animations";
 
 export default function Projects() {
   return (
@@ -11,10 +13,16 @@ export default function Projects() {
           title="Featured Projects"
           description="Selected projects demonstrating backend architecture, scalability, and full-stack development."
         />
-
-        <div className="grid gap-8 lg:grid-cols-3">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="grid gap-8 lg:grid-cols-3"
+        >
           {projects.map((project) => (
-            <div
+            <motion.div
+              variants={fadeInUp}
               key={project.id}
               className="
                 group
@@ -33,7 +41,8 @@ export default function Projects() {
               "
             >
               {/* Glow */}
-              <div
+              <motion.div
+                variants={fadeInUp}
                 className={`
                   absolute
                   right-0
@@ -93,9 +102,9 @@ export default function Projects() {
                   ))}
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </Container>
     </section>
   );

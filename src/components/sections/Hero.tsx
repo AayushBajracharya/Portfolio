@@ -60,10 +60,10 @@ export default function Hero() {
               <img
                 src={profileImage}
                 alt="Aayush Bajracharya"
-                className="h-[500px] w-full rounded-[2rem] object-cover"
+                className="h-[500px] w-full rounded-[2rem] object-cover transition duration-500 hover:scale-[1.02]"
               />
             </div>
-          </motion.div>{" "}
+          </motion.div>
         </div>
       </Container>
     </section>
